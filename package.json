@@ -1,0 +1,9 @@
+{
+  "name": "static-js-testing",
+  "version": "1.0.0",
+  "main": "example.js",
+  "repository": "https://github.com/milosdavidovic/static-js-testing.git",
+  "author": "Milos Davidovic",
+  "license": "MIT",
+  "private": true
+}
