@@ -5,5 +5,13 @@
   "repository": "https://github.com/milosdavidovic/static-js-testing.git",
   "author": "Milos Davidovic",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
 }
