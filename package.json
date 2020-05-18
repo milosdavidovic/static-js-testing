@@ -10,7 +10,8 @@
     "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
     "lint": "eslint .",
     "format": "prettier \"**/*.+(js)\"",
-    "validate": "yarn format && yarn lint && yarn build"
+    "check-types": "tsc",
+    "validate": "yarn check-types && yarn format && yarn lint && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
