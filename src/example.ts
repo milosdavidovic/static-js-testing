@@ -1,9 +1,9 @@
-const greeter = (firstName, lastName) => {
+const greeter = (firstName: string, lastName: string): void => {
   // eslint-disable-next-line no-console
   console.log(`Hello ${firstName} ${lastName}`);
 };
 
-var firstName = "John";
+const firstName = "John";
 const lastName = "Smith";
 
 greeter(firstName, lastName);
