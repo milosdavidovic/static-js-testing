@@ -2,7 +2,7 @@ const greeter = (firstName,surName) => {
   console.log("Hello " + firstName + " " + lastName);
 }
 
-const firstName = "John"
+var firstName = "John"
 const lastName = 'Smith';
 
 greeter (firstName, lastName);
