@@ -7,11 +7,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist"
+    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
+    "lint": "eslint .",
+    "validate": "yarn lint && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6"
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^7.0.0"
   }
 }
