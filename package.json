@@ -9,12 +9,15 @@
   "scripts": {
     "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
     "lint": "eslint .",
-    "validate": "yarn lint && yarn build"
+    "format": "prettier \"**/*.+(js)\"",
+    "validate": "yarn format && yarn lint && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
   }
 }
